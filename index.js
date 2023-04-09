@@ -4,8 +4,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const configuration = new Configuration({
-  organization: "org-hLpGP4JmzpitL0LccnVkrien",
-  apiKey: "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",
+  organization: "org-id",
+  apiKey: "API-key",
 });
 let open_ai = new OpenAIApi(configuration);
 
